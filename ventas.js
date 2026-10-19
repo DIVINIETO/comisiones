@@ -24,18 +24,18 @@ function calcular() {
 
     // let sueldoBaseStr = componenteSueldoBase.value;
 
-    let sueldoBaseStr = recuperarTexto("txtSueldoBase");
-    let numeroVentasStr = recuperarTexto("txtVentas");
-    let precioProductoStr = recuperarTexto("txtPrecio");
+    // let sueldoBaseStr = recuperarTexto("txtSueldoBase");
+    // let numeroVentasStr = recuperarTexto("txtVentas");
+    // let precioProductoStr = recuperarTexto("txtPrecio");
 
     // let numeroVentasStr = componenteVentas.value;
     // let precioProductoStr = componentePrecio.value;
 
     // Convertimos el texto a numero
 
-    let sueldoBase = parseFloat(sueldoBaseStr);
-    let numeroVenta = parseFloat(numeroVentasStr);
-    let precioProducto = parseFloat(precioProductoStr);
+    let sueldoBase = recuperarFloat("txtSueldoBase");
+    let numeroVenta = recuperarFloat("txtVentas");
+    let precioProducto = recuperarFloat("txtPrecio");
 
     let comision = calcularComision(numeroVenta, precioProducto);
 
