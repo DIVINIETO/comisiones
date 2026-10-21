@@ -206,3 +206,18 @@ p.total span {
         max-width: 560px;
     }
 }
+
+/* ---------- Mensajes de validación ---------- */
+.error {
+    display: block;
+    min-height: 1.3em;
+    /* reserva espacio para que el formulario no salte */
+    margin-bottom: 12px;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #ef4444;
+}
+
+input.input-error {
+    border-color: #ef4444;
+}
